@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID - ALIGN</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main{
+        width: 100%;
+        height: 100vh;
+        background: gray;
+        padding: 100px;
+
+        /* layout */
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: start;
+        
+
+    }
+
+    .main div{
+        width: 200px;
+        height: 200px;
+      
+        
+    }
+
+    .box1{
+        background: red;
+        aspect-ratio: 1/2;
+        flex-basis: 10%;
+        flex-grow: 1;
+    }
+
+    .box2{
+        background: blue;
+        flex-basis: 10%;
+        flex-grow: 1;
+    }
+
+    .box3{
+        background: yellow;
+        flex-basis: 10%;
+        flex-grow: 1;
+    }
+
+    .box4{
+        background: green;
+        flex-basis: 10%;
+        flex-grow: 1;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="box1">BOX1</div>
+        <div class="box2">BOX2</div>
+        <div class="box3">BOX3</div>
+        <div class="box4">BOX4</div>
+    </div>
+</body>
+</html>
