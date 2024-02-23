@@ -1,0 +1,156 @@
+/* MOBILE 375PX */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: #ffb7b7;
+    position: relative;
+    padding: 20px 30px;
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.navbar .logo{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    place-self: center;
+
+}
+
+.navbar .navlinks{
+    width: 80%;
+    height: 100vh;
+    background: #000;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    padding: 30px 0px;
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 1000px;
+}
+
+.navbar .navlinks.show{
+    width: 80%;
+    height: 100vh;
+    background: #000;
+    position: absolute;
+    right: 0;
+
+    padding: 30px 0px;
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 0px;
+}
+
+.navbar .navlinks p{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 3px;
+    padding : 20px 50px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.navbar .navlinks li{
+    padding: 10px 50px;
+    transition: background 1s ease-in 100ms;
+}
+
+.navbar .navlinks li:hover{
+    background:rgb(71, 26, 26);
+}
+
+.navbar .navlinks li a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+
+.navbar .menu-bar{
+    width: 60px;
+    height: 150px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navbar .menu-bar span{
+    content: "";
+    width:  100%;
+    height: 6px;
+    background: #000;
+    border-radius: 100px;
+
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background: rgb(244, 153, 153);
+}
+
+.about-section{
+    width: 100%;
+    height: 100vh;
+    background: rgb(194, 132, 132);
+}
+
+.products-section{
+    width: 100%;
+    height: 100vh;
+    background: rgb(114, 68, 68);
+}
+
+.service-section{
+    width: 100%;
+    height: 100vh;
+    background: rgb(242, 196, 196);
+}
+
+.review-section{
+    width: 100%;
+    height: 100vh;
+    background: rgb(222, 110, 110);
+}
+
+.footer-section{
+    width: 100%;
+    height: 200px;
+    background: rgb(71, 26, 26);
+}
