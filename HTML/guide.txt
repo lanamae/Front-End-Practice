@@ -1,0 +1,28 @@
+GUIDE FOR HTML 
+
+
+
+1. Html Structure
+    <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            
+        </body>
+        </html>
+
+
+2. head Structures - title and links
+3. Semantic Tag &  Non-semantic Tags
+4. Inline and Block Tags
+5. Paragraph & modifications
+6. Headings
+7. Lists
+8. Tables
+9. Anchor taga and Medias ( img, vid, audio)
+10. Forms and Inputs
+11. Different attributes inside the tags. 
