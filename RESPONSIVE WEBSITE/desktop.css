@@ -49,4 +49,58 @@
         color: #000;
     }
     
+
+
+    .hero-section {
+        height: 100vh;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    
+.hero-section .hero1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 30px 80px;
+    gap: 30px;
+
+}
+
+
+.hero-section .hero1 h1{
+    text-align: start;
+    font-size: 48px;
+}
+
+.hero-section .hero1 p{
+    text-align: start;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    color: #494949;
+}
+
+.hero-section .hero1 button{
+    text-align: start;
+    border-style: none;
+    background: #7c3838;
+    border-radius: 20px;
+    color: #fff;
+    padding: 12px 32px;
+    font-size: 18px;
+}
+
+
+.hero-section .hero2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section .hero2 img{
+    width: 300px;
+    height: auto;
+}
+
 }
