@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+     width: 100%;
+     height: 100vh;
+     background: #000;
+
+     /* layout */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    padding: 20px;
+    border-radius: 20px;
+
+    /* layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+
+    /* transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 500ms; */
+
+    transition: background 1s eas-in 200ms;
+}
+
+
+.box:hover{
+    background: yellow;
+}
