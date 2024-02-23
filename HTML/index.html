@@ -4,8 +4,193 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML PRACTICE</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        h2{
+            color: blue;
+        }
+        h3{
+            color: red;
+        }
+    </style>
 </head>
 <body>
+    <h1>HTML PRACTICE</h1>
+    <hr>
+    <!-- SEMANTIC AND NON SEMANTIC TAGS -->
+    <h2>1. SEMANTIC AND NON SEMANTIC TAGS</h2>
+    <!-- SEMANTIC TAGS -->
+    <h3>SEMANTIC TAGS</h3>
+    <header>This is hear</header>
+    <nav>This is nav</nav>
+    <section>This is section</section>
+    <h6>This is heading 6</h6>
+    <p>This is paragraph</p>
+    <form action="#">This is form</form>
+    <footer>This is Footer</footer>
+    <hr>
+
+    <!-- NON SEMANTIC TAF -->
+    <h3>SEMANTIC TAGS</h3>
+    <div>This is Div</div>
+    <span>This is span</span>
+    <br>This is br <br>
+
+
+    <hr>
+    <!-- INLINE AND BLOCK TAGS -->
+    <h2>INLINE AND BLOCK TAGS</h2>
+
+    <!-- INLINE  -->
+    <h3>INLINE</h3>
+    <span>This is span - inline </span>
+    <a href="#">This is anchor tag - inline  </a>
+    <hr>
+
+    <!-- BLOCK -->
+    <h3>BLOCK</h3>
+    <div>This is div - block tags</div>
+    <p>This is paragraph tag - inline block</p> 
+    <br><hr>
+
+    <!-- PARAGRAPH AND MPPDIFICATION  -->
+    <h2>PARAGRAPH AND MODIFICATION</h2>
+
+    <p>Lorem ipsum dolor <b>THIS IS BOLD</b> sit amet consectetur adipisicing elit. 
+        Sequi consectetur<i>THIS IS ITALIC</i>libero quisquam <u>This is undelined</u> alias 
+        veniam assumenda, est <sub>This is subscript</sub> inventore nemo <a href="#">This is anchor tag</a> nostrum pariatur 
+        corrupti vel quibusdam, <sup>This is superscript</sup> beatae asperiores molestiae 
+        accusantium commodi, <strong>This is strong</strong> amet expedita <mark>This is mark - highlighted</mark> dolores tempore porro! 
+        Quia, saepe velit? Ab tempora laboriosam temporibus quidem
+         maiores repellat,<marquee behavior="" direction="left">This is marquee</marquee> nam vitae earum iure odit eaque.</p>
+    <hr>
+
+
+    <!-- HEADINGS -->
+    <h2>HEADINGS</h2>
+    <h1>HEADING 1</h1>
+    <h2>HEADING 2</h2>
+    <h3>HEADING 3</h3>
+    <h4>HEADING 4</h4>
+    <h5>HEADING 5</h5>
+    <h6>HEADING 6</h6>
+
+    <hr>
+
+    <!-- LIST -->
+    <h2>LISTS</h2>
+
+    <H3>ordered list</H3>
+
+    <ol>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+        <li>Fourth</li>
+    </ol>
+
+    <ol>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+        <li>Fourth</li>
+    </ol>
+
+    <ol>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+        <li>Fourth</li>
+    </ol>
+
+    <H3>unordered list</H3>
+
+    <ul>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+        <li>Fourth</li>
+    </ul>
+
+    <hr>
+
+    <!-- TABLES -->
     
+    <h2>TABLES </h2>
+    <table border="collapsed">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>section</th>
+            <th colspan="2">Action</th>
+            
+        </tr>
+
+        <tr>
+            <td>Sample Name</td>
+            <td>Sample Age</td>
+            <td>Sample Section</td>
+            <td>Edit</td>
+            <td>Delete</td>
+
+        </tr>
+
+
+    </table>
+    <hr>
+
+    <!-- ANCHOR TAGS AND MEDIA -->
+    <h2>ANCHOR AND MEDIAS</h2>
+
+    <a href="www.facebook.com" target="_blank">This is achor tag that will direct to facebook</a>
+    <br>
+    <img src="html.png" alt="html image" srcset="" style="width: 200px; height: auto;">
+
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wqz0YsaHp0w?si=OEwuvOMAXrp19EO3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    <hr>
+
+    <!-- FORMS AND INPUTS -->
+    <h2>FORMS AND INPUT</h2>
+    <form action="">
+        <input type="button" value="BUTTON"> <br>
+        <input type="checkbox" name="Checkbox" id="checkbox"> <label for="checkbox">Checkbox</label> <br>
+        <input type="color" name="color" id="color"><br>
+        <input type="date" name="date" id="date"><br>
+        <input type="datetime" name="datetime" id="datetime"><br>
+        <input type="email" name="email" id="email"><br>
+        <input type="file" name="" id=""><br>
+        <input type="hidden" name="hidden"> <br>
+        <input type="image" src="html.png" alt=""> <br>
+        <input type="month" name="month" id="month"> <br>
+        <input type="number" name="number" id="number"> <br>
+        <input type="password" name="password" id="password"> <br>
+        <input type="radio" name=" Option 1" id="option1"> <label for="option1">Option 1</label> <br>
+        <input type="radio" name=" Option 2" id="option2"> <label for="option2">Option 2</label> <br>
+        <input type="range" name="range" id="range"> <br>
+        <input type="search" name="search" id="search">  <br>
+        <input type="submit" value="SUBMIT"> <br>
+        <input type="text" name="text" id="text"> <br>
+        <input type="time" name="time" id="time"> <br>
+        <input type="url" name="url" id="url"> <br>
+        <input type="week" name="week" id="week"> <br>
+
+        <hr>
+
+
+
+
+
+
+
+
+
+
+
+    </form>
 </body>
 </html>
