@@ -43,7 +43,8 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-right: 1000px;
+    margin-right: -1000px;
+    transition: margin-right 2s ease-in 50ms;
 }
 
 .navbar .navlinks.show{
@@ -60,6 +61,7 @@
     flex-direction: column;
     gap: 30px;
     margin-right: 0px;
+    
 }
 
 .navbar .navlinks p{
